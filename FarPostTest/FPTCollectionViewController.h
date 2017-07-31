@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FPTCollectionViewController.h
 //  FarPostTest
 //
 //  Created by Kirill Varlamov on 30.07.17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FPTCollectionViewController : UIViewController
 
 @end
-

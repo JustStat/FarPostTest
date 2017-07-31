@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		140B2B641F2D6E7C00F3306B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B631F2D6E7C00F3306B /* main.m */; };
 		140B2B671F2D6E7C00F3306B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B661F2D6E7C00F3306B /* AppDelegate.m */; };
-		140B2B6A1F2D6E7C00F3306B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B691F2D6E7C00F3306B /* ViewController.m */; };
 		140B2B6D1F2D6E7C00F3306B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140B2B6B1F2D6E7C00F3306B /* Main.storyboard */; };
-		140B2B701F2D6E7C00F3306B /* FarPostTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B6E1F2D6E7C00F3306B /* FarPostTest.xcdatamodeld */; };
 		140B2B721F2D6E7C00F3306B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140B2B711F2D6E7C00F3306B /* Assets.xcassets */; };
 		140B2B751F2D6E7C00F3306B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140B2B731F2D6E7C00F3306B /* LaunchScreen.storyboard */; };
+		140B2B7E1F2D733500F3306B /* FPTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B7D1F2D733500F3306B /* FPTCollectionViewController.m */; };
+		140B2B811F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B801F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.m */; };
+		140B2B841F2D7FFA00F3306B /* FPTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B831F2D7FFA00F3306B /* FPTCollectionViewCell.m */; };
+		140B2B8D1F2D8FE200F3306B /* FPTCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 140B2B8C1F2D8FE200F3306B /* FPTCacheManager.m */; };
+		146E043C1F2DFE2400685537 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146E043A1F2DFE2400685537 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +24,19 @@
 		140B2B631F2D6E7C00F3306B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		140B2B651F2D6E7C00F3306B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		140B2B661F2D6E7C00F3306B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		140B2B681F2D6E7C00F3306B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		140B2B691F2D6E7C00F3306B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		140B2B6C1F2D6E7C00F3306B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		140B2B6F1F2D6E7C00F3306B /* FarPostTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarPostTest.xcdatamodel; sourceTree = "<group>"; };
 		140B2B711F2D6E7C00F3306B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		140B2B741F2D6E7C00F3306B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		140B2B761F2D6E7C00F3306B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140B2B7C1F2D733500F3306B /* FPTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTCollectionViewController.h; sourceTree = "<group>"; };
+		140B2B7D1F2D733500F3306B /* FPTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTCollectionViewController.m; sourceTree = "<group>"; };
+		140B2B7F1F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		140B2B801F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		140B2B821F2D7FFA00F3306B /* FPTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTCollectionViewCell.h; sourceTree = "<group>"; };
+		140B2B831F2D7FFA00F3306B /* FPTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTCollectionViewCell.m; sourceTree = "<group>"; };
+		140B2B8B1F2D8FE200F3306B /* FPTCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTCacheManager.h; sourceTree = "<group>"; };
+		140B2B8C1F2D8FE200F3306B /* FPTCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTCacheManager.m; sourceTree = "<group>"; };
+		146E043B1F2DFE2400685537 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +71,20 @@
 			children = (
 				140B2B651F2D6E7C00F3306B /* AppDelegate.h */,
 				140B2B661F2D6E7C00F3306B /* AppDelegate.m */,
-				140B2B681F2D6E7C00F3306B /* ViewController.h */,
-				140B2B691F2D6E7C00F3306B /* ViewController.m */,
+				140B2B7F1F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.h */,
+				140B2B801F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.m */,
+				140B2B7C1F2D733500F3306B /* FPTCollectionViewController.h */,
+				140B2B7D1F2D733500F3306B /* FPTCollectionViewController.m */,
+				140B2B821F2D7FFA00F3306B /* FPTCollectionViewCell.h */,
+				140B2B831F2D7FFA00F3306B /* FPTCollectionViewCell.m */,
+				140B2B8B1F2D8FE200F3306B /* FPTCacheManager.h */,
+				140B2B8C1F2D8FE200F3306B /* FPTCacheManager.m */,
 				140B2B6B1F2D6E7C00F3306B /* Main.storyboard */,
 				140B2B711F2D6E7C00F3306B /* Assets.xcassets */,
 				140B2B731F2D6E7C00F3306B /* LaunchScreen.storyboard */,
 				140B2B761F2D6E7C00F3306B /* Info.plist */,
-				140B2B6E1F2D6E7C00F3306B /* FarPostTest.xcdatamodeld */,
 				140B2B621F2D6E7C00F3306B /* Supporting Files */,
+				146E043A1F2DFE2400685537 /* Model.xcdatamodeld */,
 			);
 			path = FarPostTest;
 			sourceTree = "<group>";
@@ -154,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140B2B6A1F2D6E7C00F3306B /* ViewController.m in Sources */,
+				140B2B7E1F2D733500F3306B /* FPTCollectionViewController.m in Sources */,
 				140B2B671F2D6E7C00F3306B /* AppDelegate.m in Sources */,
+				140B2B841F2D7FFA00F3306B /* FPTCollectionViewCell.m in Sources */,
+				146E043C1F2DFE2400685537 /* Model.xcdatamodeld in Sources */,
 				140B2B641F2D6E7C00F3306B /* main.m in Sources */,
-				140B2B701F2D6E7C00F3306B /* FarPostTest.xcdatamodeld in Sources */,
+				140B2B8D1F2D8FE200F3306B /* FPTCacheManager.m in Sources */,
+				140B2B811F2D7AEA00F3306B /* FPTCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -279,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZB2PMQN3C6;
 				INFOPLIST_FILE = FarPostTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.kirillvarlamov.FarPostTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZB2PMQN3C6;
 				INFOPLIST_FILE = FarPostTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.kirillvarlamov.FarPostTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,17 +336,18 @@
 				140B2B7B1F2D6E7C00F3306B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		140B2B6E1F2D6E7C00F3306B /* FarPostTest.xcdatamodeld */ = {
+		146E043A1F2DFE2400685537 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				140B2B6F1F2D6E7C00F3306B /* FarPostTest.xcdatamodel */,
+				146E043B1F2DFE2400685537 /* Model.xcdatamodel */,
 			);
-			currentVersion = 140B2B6F1F2D6E7C00F3306B /* FarPostTest.xcdatamodel */;
-			path = FarPostTest.xcdatamodeld;
+			currentVersion = 146E043B1F2DFE2400685537 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
